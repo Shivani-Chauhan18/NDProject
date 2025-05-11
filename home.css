@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	font-family:Arial,sans-serif;
+	line-height:1.6;
+}
+header{
+	background:#008080;
+	color:#fff;
+	padding:20px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.search-bar{
+	margin-top:35px;
+	text-align:center;
+	background:#f0fff4;
+}
+.search-bar button{
+	padding:10px 16px;
+	background-color:#5f9ea0;
+	color:white;
+	border:none;
+	border-radius:8px;
+	margin-left:5px;
+	cursor:pointer;
+}
+.search-bar button:hover{
+	background-color:#4682b4;
+}
+nav a{
+	color:white;
+	margin-left:20px;
+	text-decoration:none;
+}
+.hero{
+	
+	
+
+}
+.hero button{
+	padding:10px 20px;
+	margin-top:20px;
+	background:#008080;
+	border:none;
+	color:white;
+	cursor:pointer;
+}
+#packages{
+	padding:50px 20px;
+	background:#f4f4f4;
+}
+.package-list{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+.package{
+	background:white;
+	border:1px solid #ccc;
+	padding:20px;
+	width:250px;
+	margin:10px;
+	border-radius:5px;
+}
+#contact{
+	padding:50px 20px;
+}
+#contact form{
+	max-width:500px;
+	margin:auto;
+	display:flex;
+	flex-direction:column;
+}
+#contact input, #contact textarea{
+	margin-bottom:15px;
+	padding:10px;	
+}
+#contact button{
+	padding:10px;
+	background:#008080;
+	color:white;
+	border:none;
+}
